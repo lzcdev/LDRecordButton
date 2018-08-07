@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB139E0121183BF000B23E82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB139E0021183BF000B23E82 /* AppDelegate.m */; };
+		CB139E0421183BF000B23E82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB139E0321183BF000B23E82 /* ViewController.m */; };
+		CB139E0721183BF000B23E82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB139E0521183BF000B23E82 /* Main.storyboard */; };
+		CB139E0921183BF000B23E82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB139E0821183BF000B23E82 /* Assets.xcassets */; };
+		CB139E0C21183BF000B23E82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB139E0A21183BF000B23E82 /* LaunchScreen.storyboard */; };
+		CB139E0F21183BF000B23E82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB139E0E21183BF000B23E82 /* main.m */; };
+		CB139E1921183BF000B23E82 /* LDRecordButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB139E1821183BF000B23E82 /* LDRecordButtonTests.m */; };
+		CB139E2421183BF000B23E82 /* LDRecordButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB139E2321183BF000B23E82 /* LDRecordButtonUITests.m */; };
+		CB139E3321183D1500B23E82 /* LDRecordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CB139E3221183D1500B23E82 /* LDRecordButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB139E1521183BF000B23E82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB139DF421183BF000B23E82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB139DFB21183BF000B23E82;
+			remoteInfo = LDRecordButton;
+		};
+		CB139E2021183BF000B23E82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB139DF421183BF000B23E82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB139DFB21183BF000B23E82;
+			remoteInfo = LDRecordButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB139DFC21183BF000B23E82 /* LDRecordButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LDRecordButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB139DFF21183BF000B23E82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB139E0021183BF000B23E82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB139E0221183BF000B23E82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB139E0321183BF000B23E82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB139E0621183BF000B23E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB139E0821183BF000B23E82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB139E0B21183BF000B23E82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB139E0D21183BF000B23E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB139E0E21183BF000B23E82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB139E1421183BF000B23E82 /* LDRecordButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDRecordButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB139E1821183BF000B23E82 /* LDRecordButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDRecordButtonTests.m; sourceTree = "<group>"; };
+		CB139E1A21183BF000B23E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB139E1F21183BF000B23E82 /* LDRecordButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDRecordButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB139E2321183BF000B23E82 /* LDRecordButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDRecordButtonUITests.m; sourceTree = "<group>"; };
+		CB139E2521183BF000B23E82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB139E3121183D1500B23E82 /* LDRecordButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDRecordButton.h; sourceTree = "<group>"; };
+		CB139E3221183D1500B23E82 /* LDRecordButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDRecordButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB139DF921183BF000B23E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB139E1121183BF000B23E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB139E1C21183BF000B23E82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB139DF321183BF000B23E82 = {
+			isa = PBXGroup;
+			children = (
+				CB139DFE21183BF000B23E82 /* LDRecordButton */,
+				CB139E1721183BF000B23E82 /* LDRecordButtonTests */,
+				CB139E2221183BF000B23E82 /* LDRecordButtonUITests */,
+				CB139DFD21183BF000B23E82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB139DFD21183BF000B23E82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB139DFC21183BF000B23E82 /* LDRecordButton.app */,
+				CB139E1421183BF000B23E82 /* LDRecordButtonTests.xctest */,
+				CB139E1F21183BF000B23E82 /* LDRecordButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB139DFE21183BF000B23E82 /* LDRecordButton */ = {
+			isa = PBXGroup;
+			children = (
+				CB139E34211986DE00B23E82 /* LDRecordButton */,
+				CB139DFF21183BF000B23E82 /* AppDelegate.h */,
+				CB139E0021183BF000B23E82 /* AppDelegate.m */,
+				CB139E0221183BF000B23E82 /* ViewController.h */,
+				CB139E0321183BF000B23E82 /* ViewController.m */,
+				CB139E0521183BF000B23E82 /* Main.storyboard */,
+				CB139E0821183BF000B23E82 /* Assets.xcassets */,
+				CB139E0A21183BF000B23E82 /* LaunchScreen.storyboard */,
+				CB139E0D21183BF000B23E82 /* Info.plist */,
+				CB139E0E21183BF000B23E82 /* main.m */,
+			);
+			path = LDRecordButton;
+			sourceTree = "<group>";
+		};
+		CB139E1721183BF000B23E82 /* LDRecordButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB139E1821183BF000B23E82 /* LDRecordButtonTests.m */,
+				CB139E1A21183BF000B23E82 /* Info.plist */,
+			);
+			path = LDRecordButtonTests;
+			sourceTree = "<group>";
+		};
+		CB139E2221183BF000B23E82 /* LDRecordButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB139E2321183BF000B23E82 /* LDRecordButtonUITests.m */,
+				CB139E2521183BF000B23E82 /* Info.plist */,
+			);
+			path = LDRecordButtonUITests;
+			sourceTree = "<group>";
+		};
+		CB139E34211986DE00B23E82 /* LDRecordButton */ = {
+			isa = PBXGroup;
+			children = (
+				CB139E3121183D1500B23E82 /* LDRecordButton.h */,
+				CB139E3221183D1500B23E82 /* LDRecordButton.m */,
+			);
+			path = LDRecordButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB139DFB21183BF000B23E82 /* LDRecordButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB139E2821183BF000B23E82 /* Build configuration list for PBXNativeTarget "LDRecordButton" */;
+			buildPhases = (
+				CB139DF821183BF000B23E82 /* Sources */,
+				CB139DF921183BF000B23E82 /* Frameworks */,
+				CB139DFA21183BF000B23E82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LDRecordButton;
+			productName = LDRecordButton;
+			productReference = CB139DFC21183BF000B23E82 /* LDRecordButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB139E1321183BF000B23E82 /* LDRecordButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB139E2B21183BF000B23E82 /* Build configuration list for PBXNativeTarget "LDRecordButtonTests" */;
+			buildPhases = (
+				CB139E1021183BF000B23E82 /* Sources */,
+				CB139E1121183BF000B23E82 /* Frameworks */,
+				CB139E1221183BF000B23E82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB139E1621183BF000B23E82 /* PBXTargetDependency */,
+			);
+			name = LDRecordButtonTests;
+			productName = LDRecordButtonTests;
+			productReference = CB139E1421183BF000B23E82 /* LDRecordButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB139E1E21183BF000B23E82 /* LDRecordButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB139E2E21183BF000B23E82 /* Build configuration list for PBXNativeTarget "LDRecordButtonUITests" */;
+			buildPhases = (
+				CB139E1B21183BF000B23E82 /* Sources */,
+				CB139E1C21183BF000B23E82 /* Frameworks */,
+				CB139E1D21183BF000B23E82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB139E2121183BF000B23E82 /* PBXTargetDependency */,
+			);
+			name = LDRecordButtonUITests;
+			productName = LDRecordButtonUITests;
+			productReference = CB139E1F21183BF000B23E82 /* LDRecordButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB139DF421183BF000B23E82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = lzcdev;
+				TargetAttributes = {
+					CB139DFB21183BF000B23E82 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CB139E1321183BF000B23E82 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB139DFB21183BF000B23E82;
+					};
+					CB139E1E21183BF000B23E82 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB139DFB21183BF000B23E82;
+					};
+				};
+			};
+			buildConfigurationList = CB139DF721183BF000B23E82 /* Build configuration list for PBXProject "LDRecordButton" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB139DF321183BF000B23E82;
+			productRefGroup = CB139DFD21183BF000B23E82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB139DFB21183BF000B23E82 /* LDRecordButton */,
+				CB139E1321183BF000B23E82 /* LDRecordButtonTests */,
+				CB139E1E21183BF000B23E82 /* LDRecordButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB139DFA21183BF000B23E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB139E0C21183BF000B23E82 /* LaunchScreen.storyboard in Resources */,
+				CB139E0921183BF000B23E82 /* Assets.xcassets in Resources */,
+				CB139E0721183BF000B23E82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB139E1221183BF000B23E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB139E1D21183BF000B23E82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB139DF821183BF000B23E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB139E0421183BF000B23E82 /* ViewController.m in Sources */,
+				CB139E0F21183BF000B23E82 /* main.m in Sources */,
+				CB139E3321183D1500B23E82 /* LDRecordButton.m in Sources */,
+				CB139E0121183BF000B23E82 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB139E1021183BF000B23E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB139E1921183BF000B23E82 /* LDRecordButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB139E1B21183BF000B23E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB139E2421183BF000B23E82 /* LDRecordButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB139E1621183BF000B23E82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB139DFB21183BF000B23E82 /* LDRecordButton */;
+			targetProxy = CB139E1521183BF000B23E82 /* PBXContainerItemProxy */;
+		};
+		CB139E2121183BF000B23E82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB139DFB21183BF000B23E82 /* LDRecordButton */;
+			targetProxy = CB139E2021183BF000B23E82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB139E0521183BF000B23E82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB139E0621183BF000B23E82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB139E0A21183BF000B23E82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB139E0B21183BF000B23E82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB139E2621183BF000B23E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB139E2721183BF000B23E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB139E2921183BF000B23E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LDRecordButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ljkj.LDRecordButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB139E2A21183BF000B23E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LDRecordButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ljkj.LDRecordButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB139E2C21183BF000B23E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LDRecordButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ljkj.LDRecordButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LDRecordButton.app/LDRecordButton";
+			};
+			name = Debug;
+		};
+		CB139E2D21183BF000B23E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LDRecordButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ljkj.LDRecordButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LDRecordButton.app/LDRecordButton";
+			};
+			name = Release;
+		};
+		CB139E2F21183BF000B23E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LDRecordButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ljkj.LDRecordButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LDRecordButton;
+			};
+			name = Debug;
+		};
+		CB139E3021183BF000B23E82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LDRecordButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ljkj.LDRecordButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LDRecordButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB139DF721183BF000B23E82 /* Build configuration list for PBXProject "LDRecordButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB139E2621183BF000B23E82 /* Debug */,
+				CB139E2721183BF000B23E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB139E2821183BF000B23E82 /* Build configuration list for PBXNativeTarget "LDRecordButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB139E2921183BF000B23E82 /* Debug */,
+				CB139E2A21183BF000B23E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB139E2B21183BF000B23E82 /* Build configuration list for PBXNativeTarget "LDRecordButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB139E2C21183BF000B23E82 /* Debug */,
+				CB139E2D21183BF000B23E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB139E2E21183BF000B23E82 /* Build configuration list for PBXNativeTarget "LDRecordButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB139E2F21183BF000B23E82 /* Debug */,
+				CB139E3021183BF000B23E82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB139DF421183BF000B23E82 /* Project object */;
+}
