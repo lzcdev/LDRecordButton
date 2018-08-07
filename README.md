@@ -2,7 +2,7 @@
 🔥仿微信拍照录像按钮📷，支持点击和长按事件
 
 ## 演示
-![http://p0kur5o4k.bkt.clouddn.com/05.gif](http://p0kur5o4k.bkt.clouddn.com/05.gif)
+![http://p0kur5o4k.bkt.clouddn.com/05.gif](http://p0kur5o4k.bkt.clouddn.com/05.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/300)
 ## 原理
 一个自定义组件，通过继承 UIView，给控件添加点击和长按的手势。通过 block 回调出去。通过 CADisplayLink 这个定时器每隔 1/60s 调用一次 drawRect 方法， 重新绘制界面的布局，包括中间的圈、周围透明部分和进度条。这三部分通过 CAShapeLayer 和 UIBezierPath 实现。通过 CGRectInset 缩放圈的 frame .
 
@@ -53,5 +53,5 @@
  */
 @property (nonatomic, assign) CGFloat progressLayerWidth;
 
-如果要设置圈的缩放比例，可去drawRect中修改 CGRectInset 方法
+如果要设置圈的缩放比例，可去 drawRect 中修改 CGRectInset 方法
 ```
